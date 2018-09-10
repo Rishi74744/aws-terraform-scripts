@@ -9,9 +9,13 @@ provider "aws" {
 
 #You can externalize the AWS Credentials. If you do not provide aws credentials and are running it from your machine, it will look for credentials in ~/.aws/credentials. This is also a best practice.
 
+#Provider block is used to configure the provider. Our provider is 'aws'. We can have multiple provider blocks, if our application is composed of multiple providers say, AWS and Azure.
+
 resource "aws_instance" "instance-1" {
   ami           = "ami-00b6a8a2bd28daf19"
   instance_type = "t2.micro"
 }
 
 #This configuration will create a t2.micro instance with given ami in "us-east-1" region with access to default VPC.
+
+#Resource block defines the resource type and resource name.

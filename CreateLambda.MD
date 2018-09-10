@@ -4,4 +4,4 @@ AWS Lambda is a compute service which allows you to run the code without creatin
 AWS Lambda can be used to expose Rest APIs with the help of AWS API Gateway. There is no need to provision any servers to run your code. You can write your code in multiple languages supported by AWS - Java, NodeJs, Python, Go etc.
 
 # Terrafor Script To Create AWS Lambda
-Check [here] (/lambda/create-lambda.tf) to learn how to deploy lambda using Terraform.
+Visit https://github.com/Rishi74744/aws-terraform-scripts/blob/master/lambda/create-lambda.tf to learn how to deploy lambda using Terraform.
